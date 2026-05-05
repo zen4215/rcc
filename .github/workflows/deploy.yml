@@ -6,7 +6,7 @@ on:
     workflow_dispatch:
 
 permissions:
-  content: read
+  contents: read
   pages: write
   id-token: write
 
@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   deploy:
-    enviroment:
+    environment:
       name: github-pages
       url: ${{ steps.deployment.ouputs.page_url }}
     runs-on: ubuntu-latest
