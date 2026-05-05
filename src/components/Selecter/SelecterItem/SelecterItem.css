@@ -1,0 +1,10 @@
+.selecter-item {
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.selecter-item-specer {
+    height: 100%;
+    aspect-ratio: 0.5;
+}
