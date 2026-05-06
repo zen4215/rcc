@@ -21,7 +21,7 @@ function App() {
             <div style={{flexGrow: "1", position: "relative"}}>
                 <p style={{fontSize: "10vh", position: "absolute", top: "40%", left: "50%", transform: "translateX(-50%)", width: "max-content"}}>
                     {firstColorIndex}{secondColorIndex} x 10 ±{forthColorIndex == 0 ? "5%" : "10%"}
-                    <p style={{fontSize: "6vh", position: "absolute", top: "30%", left: "52%"}}>
+                    <p style={{fontSize: "6vh", position: "absolute", top: "0%", left: "65%"}}>
                         {thirdColorIndex}
                     </p>
                 </p>
