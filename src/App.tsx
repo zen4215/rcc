@@ -19,10 +19,10 @@ function App() {
             <Selecter colors={tenColors} onChange={SetThird}/>
             <Selecter colors={twoColors} onChange={SetForth}/>
             <div style={{flexGrow: "1", position: "relative"}}>
-                <p style={{fontSize: "10vh", position: "absolute", top: "40%", left: "50%", transform: "translateX(-50%)", overflowX: "visible"}}>
+                <p style={{fontSize: "10vh", position: "absolute", top: "40%", left: "50%", transform: "translateX(-50%)", width: "max-content"}}>
                     {firstColorIndex}{secondColorIndex} x 10 ±{forthColorIndex == 0 ? "5%" : "10%"}
                 </p>
-                <p style={{fontSize: "6vh", position: "absolute", top: "40%", left: "60%"}}>
+                <p style={{fontSize: "6vh", position: "absolute", top: "30%", left: "52%"}}>
                     {thirdColorIndex}
                 </p>
             </div>
